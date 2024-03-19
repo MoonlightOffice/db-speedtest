@@ -23,4 +23,6 @@ func main() {
 	defer db.Close()
 
 	db.Run10Writes()
+	//db.Run10Reads()
+	//db.DeleteAll()
 }
