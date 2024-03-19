@@ -1,0 +1,7 @@
+services:
+  speedtest:
+    image: golang:latest
+    volumes:
+    - ./work/:/work
+    working_dir: /work
+    command: ["sleep", "1000000"]
